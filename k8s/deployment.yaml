@@ -29,5 +29,5 @@ spec:
   ports:
     - port: 80
       targetPort: 3333 # Porta do container web
-      nodePort: 30000 # Porta do serviço
-  type: NodePort
+      #nodePort: 30000 # Porta do serviço
+  type: LoadBalancer
